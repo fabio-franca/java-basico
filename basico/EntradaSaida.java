@@ -25,9 +25,6 @@ public class EntradaSaida {
 		
 		altura = leitor.nextDouble();
 		
-		System.out.println("Nome: " + nome);
-		System.out.println("Idade: " + idade);
-		System.out.println("Altura: "+ altura);
 		System.out.println();
 		System.out.printf("Nome: %s \nidade: %d \naltura: %.2f", nome,idade,altura);
 	}
