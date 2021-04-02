@@ -14,6 +14,13 @@ public class Operadores {
 	public static void main(String[] args) {
 		
 		int numero1= 10,numero2= 8;
+		
+		int numerox=5,numeroy=2;
+		
+		int resultadoz= numerox % numeroy;
+		
+		System.out.println(resultadoz);
+		
 		/*
 		//Operadores Aritméticos + - * / %
 		int resultado1 = numero1+numero2;
