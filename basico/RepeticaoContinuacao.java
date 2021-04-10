@@ -3,7 +3,7 @@ package cursoJava.basico;
 public class RepeticaoContinuacao {
 
 	public static void main(String[] args) {
-
+		/*
 		String frutas[] = {"maca","abacaxi","abacate","laranja","uva"};
 		
 		//Estrutura de repetição for.
@@ -14,7 +14,10 @@ public class RepeticaoContinuacao {
 		//Estrutura for melhorada
 		for(String fruta: frutas) {
 			System.out.println(fruta);
-		} 
+		} */
+		
+		
+		
 		
 	}
 
