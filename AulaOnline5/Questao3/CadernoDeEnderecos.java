@@ -5,6 +5,8 @@ import java.util.List;
 
 public abstract class CadernoDeEnderecos {
 	
+	int index;
+	
 	public static List<Contato> contatos = new ArrayList<>(); 
 	
 	
@@ -16,7 +18,7 @@ public abstract class CadernoDeEnderecos {
 		contatos.set(index, contato);
 	}
 	
-	public static void ListarContato() {
+	public static void listarContato() {
 		for(Contato con: contatos) {
 			System.out.println(con.toString());
 		}

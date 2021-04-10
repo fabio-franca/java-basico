@@ -12,16 +12,32 @@ public class TesteCaderno extends CadernoDeEnderecos{
 		
 		Contato c4 = new Contato("Vitoria","vitoria@email.com");
 
+		Contato c5 = new Contato("Fabio","fabio@email.com");
+		
+		Contato c6 = new Contato("Dorothy","Doroteia@email.com");
+		
 		CadernoDeEnderecos.addContato(c1);
 		CadernoDeEnderecos.addContato(c2);
 		CadernoDeEnderecos.addContato(c3);
+		CadernoDeEnderecos.addContato(c4);
+		CadernoDeEnderecos.addContato(c5);
+		CadernoDeEnderecos.addContato(c6);
 		
-		CadernoDeEnderecos.ListarContato();
+		//Exibe a lista de contatos
+		CadernoDeEnderecos.listarContato();
+		System.out.println("");
 		
-		CadernoDeEnderecos.editarContato(2, c4);
+		//Edita um contato da lista de contato
+		CadernoDeEnderecos.editarContato(1, c3);
 		
-		CadernoDeEnderecos.removeContato(1);
+		CadernoDeEnderecos.listarContato();
+		System.out.println("");
 		
+		//Remove um contato
+		CadernoDeEnderecos.removeContato(0);
+		System.out.println("");
+	
+		CadernoDeEnderecos.listarContato();
 
 		
 	}
